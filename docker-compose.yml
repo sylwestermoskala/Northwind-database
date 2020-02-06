@@ -1,0 +1,33 @@
+version: "3.5"
+
+services:
+    db:
+        container_name: dbserverc
+        build: ./db
+        tty: true
+        ports:
+          - "3306:3306"
+        environment:
+          MYSQL_ROOT_PASSWORD: admin
+          MYSQL_DATABASE: northwind
+        healthcheck:
+          test: "/usr/bin/mysql --user=root --password=admin --execute \"SHOW DATABASES;\""
+          interval: 2s
+          timeout: 20s
+          retries: 10
+
+    app:
+        container_name: app
+        build: .
+        ports:
+          - "8080:8080"
+        environment:
+          DATABASE_HOST: dbserverc:3306
+          DATABASE_NAME: northwind
+        tty: true
+        volumes:
+          - ./log:/usr/src/app/log
+        links:
+          - db:db
+        depends_on:
+          - "db"
