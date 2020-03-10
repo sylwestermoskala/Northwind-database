@@ -12,43 +12,43 @@ The system that implements selected basic operations in Northwind sample databas
 <br/>
 
 <p align="center">
-  <img src="images/drawing_1.png" width="85%">
+  <img src="images/drawing_1.PNG" width="85%">
 </p>
 
 <br/><br/>
 
 <p align="center">
-  <img src="images/drawing_2.png" width="85%">
+  <img src="images/drawing_2.PNG" width="85%">
 </p>
 
 <br/><br/>
 
 <p align="center">
-  <img src="images/drawing_3.png" width="85%">
+  <img src="images/drawing_3.PNG" width="85%">
 </p>
 
 <br/><br/>
 
 <p align="center">
-  <img src="images/drawing_4.png" width="85%">
+  <img src="images/drawing_4.PNG" width="85%">
 </p>
 
 <br/><br/>
 
 <p align="center">
-  <img src="images/drawing_5.png" width="85%">
+  <img src="images/drawing_5.PNG" width="85%">
 </p>
 
 <br/><br/>
 
 <p align="center">
-  <img src="images/drawing_6.png" width="85%">
+  <img src="images/drawing_6.PNG" width="85%">
 </p>
 
 <br/><br/>
 
 <p align="center">
-  <img src="images/drawing_7.png" width="85%">
+  <img src="images/drawing_7.PNG" width="85%">
 </p>
 
 
